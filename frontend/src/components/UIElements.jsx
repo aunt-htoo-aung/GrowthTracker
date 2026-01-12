@@ -8,3 +8,13 @@ export function Button({ onClick, children }) {
     </button>
   );
 }
+
+export function Box({ children, className = "" }) {
+  return (
+    <div
+      className={`p-2 m-5 border border-gray-200 bg-white rounded-lg shadow-md ${className}`}
+    >
+      {children}
+    </div>
+  );
+}
