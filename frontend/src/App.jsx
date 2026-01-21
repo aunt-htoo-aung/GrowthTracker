@@ -1,6 +1,7 @@
 import Dashboard from "./pages/dashboard";
+import AddEntry from "./pages/Entry";
 function App() {
-  return <Dashboard />;
+  return <AddEntry />;
 }
 
 export default App;

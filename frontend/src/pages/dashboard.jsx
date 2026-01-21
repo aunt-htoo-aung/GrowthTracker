@@ -206,8 +206,8 @@ function RecentEntries() {
                   entry.color === "blue"
                     ? "bg-blue-600"
                     : entry.color === "green"
-                    ? "bg-green-600"
-                    : "bg-orange-500"
+                      ? "bg-green-600"
+                      : "bg-orange-500"
                 }`}
               >
                 {entry.icon}
@@ -224,8 +224,8 @@ function RecentEntries() {
                         entry.color === "blue"
                           ? "bg-green-600 text-white"
                           : entry.color === "green"
-                          ? "bg-lime-200 text-lime-800"
-                          : "bg-orange-500 text-white"
+                            ? "bg-lime-200 text-lime-800"
+                            : "bg-orange-500 text-white"
                       }`}
                     >
                       {entry.tag} {entry.status && `| ${entry.status}`}
@@ -240,8 +240,8 @@ function RecentEntries() {
                       entry.color === "blue"
                         ? "bg-green-500"
                         : entry.color === "green"
-                        ? "bg-blue-900"
-                        : "bg-orange-500"
+                          ? "bg-blue-900"
+                          : "bg-orange-500"
                     }`}
                     style={{ width: `${entry.progress}%` }}
                   ></div>
